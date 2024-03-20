@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: 'https://frangre.github.io/tutoriales',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
